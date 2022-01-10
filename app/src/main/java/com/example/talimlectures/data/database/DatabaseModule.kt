@@ -27,5 +27,17 @@ object DatabaseModule {
     @Singleton
     @Provides
     fun provideLectureDao(database: Database) = database.provideLecture()
+    @Singleton
+    @Provides
+    fun provideCategoryDao(database: Database) = database.provideCategory()
+    @Singleton
+    @Provides
+    fun provideFavouriteDao(database: Database) = database.provideFavourite()
+    @Singleton
+    @Provides
+    fun provideNewAddedDao(database: Database) = database.provideNewAdded()
+    @Singleton
+    @Provides
+    fun provideRecentPlayedDao(database: Database) = database.provideRecent()
 
 }

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Talim Lectures</string>
+   <string name="dialog_description">This  lecture is not available on your device\nDo you want to download it right away "</string>
 </resources>

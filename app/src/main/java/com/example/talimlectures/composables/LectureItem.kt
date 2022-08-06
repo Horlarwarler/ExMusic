@@ -22,7 +22,7 @@ fun LectureItem(
             .height(lectureItemHeight)
             .fillMaxWidth()
             .padding(mediumPadding)
-            .background(MaterialTheme.colors.LectureBackgroundColor)
+            .background(BackgroundColor)
             .border(
                 width = 1.dp,
                 color = Color.Transparent,

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signUp">Sign Up</string>
+    <string name="profile">Profile</string>
+    <string name="player">Now Playing</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="signIn">Sign In</string>
+    <string name="profilePictureText">Upload a profile picture\n(optional)</string>
+    <string name="personalPlaylist">Personal Playlist</string>
+    <string name="notFirstTime">Not the first time here?</string>
+    <string name="login">Login</string>
+    <string name="homePageSecondTitle">Live your day with music</string>
+</resources>

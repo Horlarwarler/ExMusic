@@ -1,0 +1,132 @@
+apply plugin: 'com.android.library'
+apply plugin:  'org.jetbrains.kotlin.android'
+apply plugin: 'kotlin-kapt'
+apply plugin:  'com.google.dagger.hilt.android'
+apply plugin:  'kotlin-parcelize'
+apply plugin: 'kotlinx-serialization'
+
+
+android {
+    compileSdk ProjectConfig.compileSdk
+    buildToolsVersion "34.0.0"
+    defaultConfig {
+
+        minSdk ProjectConfig.minimumSdk
+        targetSdk ProjectConfig.targetSdk
+        versionCode ProjectConfig.versionCode
+        versionName ProjectConfig.versionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+       // coreLibraryDesugaringEnabled true
+
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion Compose.compilerVersion
+
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+//kotlin {
+//    jvmToolchain(17)
+//}
+dependencies {
+
+
+
+    //compose
+    implementation Compose.composeAnimationGraphics
+    implementation Compose.composeHiltNavigation
+    implementation Compose.composeUnitTest
+    implementation Compose.composeMaterial
+    implementation Compose.composeMaterialIcons
+    implementation Compose.composeMaterialIconsExtended
+    implementation Compose.composeManifest
+    implementation Compose.composeNavigation
+    implementation Compose.composeTooling
+    implementation Compose.composeToolingPreview
+    implementation Compose.composeUi
+    implementation Compose.composeViewModel
+    implementation Compose.composeMaterial3
+
+
+    //hilt
+    implementation Hilt.daggerHilt
+    kapt Hilt.hiltCompiler
+
+    //room
+    implementation Room.roomRuntime
+    annotationProcessor Room.roomCompiler
+    kapt Room.roomCompiler
+    implementation Room.roomKtx
+
+    //Accompanist
+    implementation Accompanist.accompanistNavigation
+    implementation Accompanist.accompanistPager
+
+    //datastore
+
+
+    //Ktor Client
+    implementation Ktor.clientCore
+    implementation Ktor.clientCio
+    implementation Ktor.clientContentNegotiation
+    implementation Ktor.clientLogging
+    implementation Ktor.clientAuthentication
+    implementation Ktor.serialization
+
+
+    //Kotlinx
+    implementation Kotlinx.kotlinXSerialization
+
+
+    //coil
+    implementation Coil.coilCompose
+
+    //Android X
+    implementation AndroidX.constraintLayoutCompose
+    implementation AndroidX.coreKtx
+    implementation AndroidX.datastore
+    implementation AndroidX.lifecycleRuntime
+
+    //Media3
+    implementation Media.media3Exoplayer
+    implementation Media.media3ExoplayerDash
+    implementation Media.media3Session
+    implementation Media.media3Ui
+    implementation Media.media3Common
+
+    //Test
+
+  //  androidTestImplementation Testing.espresso
+    testImplementation Testing.jUnit
+    androidTestImplementation Testing.jUnitExt
+
+    //Desugaring
+  //  coreLibraryDesugaring Desugaring.desugaringDependency
+
+
+}

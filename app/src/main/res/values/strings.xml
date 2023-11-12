@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Talim Lectures</string>
+
    <string name="dialog_description">This  lecture is not available on your device\nDo you want to download it right away "</string>
+    <string name="onboard_title_1">Stream Songs Online</string>
+    <string name="onboard_title_2">Download Songs to your device</string>
+    <string name="onboard_title_3">Have a license!</string>
+    <string name="onboard_description_1">Stream popular songs and play online on your mobile devices </string>
+    <string name="onboard_description_2">No Internet connection, No Problem, you can download when on a wifi</string>
+    <string name="onboard_description_3">Are you a content uploader, upload your music for people to listen to</string>
+
 </resources>

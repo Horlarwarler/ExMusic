@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="step_one">Please Select the file you intend to upload, ensure the audio you selected is of good quality</string>
+    <string name="step_one_file_button">Preview</string>
+    <string name="step_two_file_button">Remove</string>
+    <string name="step_three">Select the thumbnail of the of the audio, this enable more visibility</string>
+</resources>

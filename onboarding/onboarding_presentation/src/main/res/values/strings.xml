@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboard_title_one">Have Great Idea\nto share</string>
+    <string name="onboard_description_one">Become a content creator and share your inspiration  to the world</string>
+    <string name="onboard_title_two">Enjoy With\nFriends</string>
+    <string name="onboard_description_two">Share music you love with your friends and stream together</string>
+    <string name="onboard_title_three">Listen In Your \nLeisure</string>
+    <string name="onboard_description_three">Great work start from \ndiligence discussion</string>
+
+</resources>

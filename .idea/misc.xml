@@ -1,22 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
+    <option name="filePathToDrawableBackgroundType">
+      <map>
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/okmark.xml" value="NONE" />
+      </map>
+    </option>
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/admin/presentation/AdminHomeScreen/AdminHomeScreen.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/appUtil/composables.kt" value="0.22" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/components/ButtomPlayer.kt" value="0.13703703703703704" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/components/CircularProgress.kt" value="1.25" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/components/LoadingScreenShimmer.kt" value="0.12" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/components/RecycleBin.kt" value="0.16" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/components/ResultVectorAnimation.kt" value="0.18" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/components/ShimmerItem.kt" value="0.46545454545454545" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/composables/LectureItem.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/composables/MiniPlayer.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/composables/TopAppBar.kt" value="2.0" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/user/presentation/LectureScreen/LectureScreen.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/user/presentation/LectureScreens/LectureScreen.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/user/presentation/homeScreen/HomeScreen.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/crezent/talimlectures/user/presentation/splashScreen/splashScreen.kt" value="2.0" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/example/talimlectures/composables/DialogBar.kt" value="0.25" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/example/talimlectures/composables/MiniPlayer.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/example/talimlectures/composables/TopAppBar.kt" value="0.1638888888888889" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/example/talimlectures/presentation/AdminHomeScreen/AdminHomeScreen.kt" value="0.25" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/example/talimlectures/presentation/LectureScreens/LectureScreen.kt" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/example/talimlectures/presentation/homeScreen/HomeScreen.kt" value="0.75" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/java/com/example/talimlectures/presentation/splashScreen/splashScreen.kt" value="2.0" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/animateclose.xml" value="0.1" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/close.xml" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.13" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1065" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/logo.xml" value="0.1" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/music_video.xml" value="0.1" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/okmark.xml" value="0.1025" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/openeye.xml" value="0.1" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/people.xml" value="0.1" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/play_icon.xml" value="0.1115" />
+        <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/recyclebin.xml" value="0.1" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/drawable/search.xml" value="0.159" />
         <entry key="..\:/Users/Mikail Ramadan/AndroidStudioProjects/TalimLectures/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="dagger.hilt.android.scopes.ViewModelScoped" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -5,14 +5,15 @@ pluginManagement {
         mavenCentral()
     }
     plugins {
-        id 'com.android.application' version '7.1.0-rc01'
-        id 'com.android.library' version '7.1.0-rc01'
-        id 'org.jetbrains.kotlin.android' version '1.7.0'
+        id 'com.android.application' version '7.4.0'
+        id 'com.android.library' version '7.4.0'
+        id 'org.jetbrains.kotlin.android' version '1.8.20'
+        id 'org.jetbrains.kotlin.jvm' version '1.8.20'
     }
     resolutionStrategy {
         eachPlugin {
             if( requested.id.id == 'dagger.hilt.android.plugin') {
-                useModule("com.google.dagger:hilt-android-gradle-plugin:2.38.1")
+                useModule("com.google.dagger:hilt-android-gradle-plugin:2.44")
             }
         }
     }
@@ -20,3 +21,28 @@ pluginManagement {
 
 rootProject.name = "Talim Lectures"
 include ':app'
+include ':core'
+include ':test'
+include ':creator'
+//include ':creator:creator_domain'
+include ':creator:creator_data'
+include ':creator:creator_presentation'
+include ':onboarding'
+include ':user'
+include ':onboarding:onboarding_data'
+include ':onboarding:onboarding_domain'
+include ':onboarding:onboarding_presentation'
+include ':user:user_data'
+include ':user:user_domain'
+include ':core:database'
+include ':core:common'
+include ':core:music'
+include ':core:network'
+include ':core:data'
+include ':core:download'
+//include ':core:domain'
+include ':core:domain'
+include ':core:upload'
+ include ':core:models'
+include ':user:user-presentation'
+include ':core:design_system'

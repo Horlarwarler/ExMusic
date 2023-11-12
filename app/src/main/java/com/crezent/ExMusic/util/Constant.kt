@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.util
+package com.crezent.ExMusic.util
 
 object Constant {
     const val TABLE_NAME  = "lecturesTable"

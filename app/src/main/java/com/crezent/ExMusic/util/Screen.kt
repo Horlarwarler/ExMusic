@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.util
+package com.crezent.ExMusic.util
 
 import android.util.Log
 import androidx.navigation.NavHostController

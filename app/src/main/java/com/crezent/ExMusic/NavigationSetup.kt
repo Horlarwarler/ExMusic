@@ -1,4 +1,4 @@
-package com.crezent.talimlectures
+package com.crezent.ExMusic
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -29,17 +29,17 @@ import com.crezent.creator_presentation.upload_dashboard.UploadDashboardScreen
 import com.crezent.creator_presentation.upload_dashboard.UploadDashboardViewModel
 import com.crezent.creator_presentation.upload_file.UploadFileScreen
 import com.crezent.creator_presentation.upload_file.UploadFileViewModel
-import com.crezent.talimlectures.util.Constant.HOME_SCREEN_NAME
-import com.crezent.talimlectures.util.Constant.LOGIN_SCREEN
-import com.crezent.talimlectures.util.Constant.MUSIC_SCREEN_NAME
-import com.crezent.talimlectures.util.Constant.ONBOARD_SCREEN
-import com.crezent.talimlectures.util.Constant.PROFILE_SCREEN_NAME
-import com.crezent.talimlectures.util.Constant.PROFILE_UPDATE_SCREEN
-import com.crezent.talimlectures.util.Constant.SIGN_UP_SCREEN
-import com.crezent.talimlectures.util.Constant.SPLASH_SCREEN
-import com.crezent.talimlectures.util.Constant.UPLOAD_DASHBOARD_SCREEN
-import com.crezent.talimlectures.util.Constant.UPLOAD_FILE_SCREEN
-import com.crezent.talimlectures.util.Screen
+import com.crezent.ExMusic.util.Constant.HOME_SCREEN_NAME
+import com.crezent.ExMusic.util.Constant.LOGIN_SCREEN
+import com.crezent.ExMusic.util.Constant.MUSIC_SCREEN_NAME
+import com.crezent.ExMusic.util.Constant.ONBOARD_SCREEN
+import com.crezent.ExMusic.util.Constant.PROFILE_SCREEN_NAME
+import com.crezent.ExMusic.util.Constant.PROFILE_UPDATE_SCREEN
+import com.crezent.ExMusic.util.Constant.SIGN_UP_SCREEN
+import com.crezent.ExMusic.util.Constant.SPLASH_SCREEN
+import com.crezent.ExMusic.util.Constant.UPLOAD_DASHBOARD_SCREEN
+import com.crezent.ExMusic.util.Constant.UPLOAD_FILE_SCREEN
+import com.crezent.ExMusic.util.Screen
 import com.crezent.user_presentation.homeScreen.HomeScreen
 import com.crezent.user_presentation.homeScreen.HomeScreenModel
 import com.crezent.user_presentation.music.MusicScreen

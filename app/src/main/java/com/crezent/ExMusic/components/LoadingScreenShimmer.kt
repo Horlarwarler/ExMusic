@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.components
+package com.crezent.ExMusic.components
 
 import androidx.compose.animation.core.InfiniteRepeatableSpec
 import androidx.compose.animation.core.LinearEasing
@@ -17,7 +17,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.times
-import com.crezent.design_system.components.ShimmerItem
 
 @Composable
 fun LoadingScreenShimmer(

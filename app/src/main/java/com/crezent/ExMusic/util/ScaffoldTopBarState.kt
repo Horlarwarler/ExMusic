@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.util
+package com.crezent.ExMusic.util
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable

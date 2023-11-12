@@ -1,4 +1,4 @@
-package com.crezent.talimlectures
+package com.crezent.ExMusic
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.components
+package com.crezent.ExMusic.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,7 +12,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.crezent.design_system.theme.mediumPadding
 
 @Composable
 fun PlayerAppBar(

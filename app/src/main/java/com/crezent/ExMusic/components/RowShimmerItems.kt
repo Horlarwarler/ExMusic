@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.components
+package com.crezent.ExMusic.components
 
 import androidx.compose.animation.core.InfiniteRepeatableSpec
 import androidx.compose.animation.core.LinearEasing

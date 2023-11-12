@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.components
+package com.crezent.ExMusic.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

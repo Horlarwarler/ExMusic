@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.di
+package com.crezent.ExMusic.di
 
 import android.app.Application
 import android.content.Context

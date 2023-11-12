@@ -1,4 +1,4 @@
-package com.crezent.talimlectures.di
+package com.crezent.ExMusic.di
 
 import android.content.Context
 import androidx.datastore.core.DataStore

@@ -10,7 +10,7 @@ plugins {
 
 android {
     compileSdk ProjectConfig.compileSdk
-    namespace 'com.crezent.talimlectures'
+    namespace 'com.crezent.ExMusic'
 
     defaultConfig {
         applicationId ProjectConfig.applicationId

@@ -19,7 +19,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Talim Lectures"
+rootProject.name = "ExMusic"
 include ':app'
 include ':core'
 include ':test'

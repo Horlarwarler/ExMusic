@@ -15,7 +15,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.crezent.common.util.Constant
-import com.crezent.design_system.R
 import com.crezent.design_system.theme.ExMusicTheme
 
 @Composable
